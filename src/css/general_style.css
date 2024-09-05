@@ -1,0 +1,45 @@
+:root {
+  --color1: #ECEAEA;
+  --color2: #0C0C0C;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../res/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roboto-italic";
+  src: url("../res/fonts/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../res/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../res/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu-italic";
+  src: url("../res/fonts/Ubuntu/Ubuntu-Italic.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu-bold";
+  src: url("../res/fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
