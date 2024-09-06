@@ -1,8 +1,15 @@
+/**
+ * This file is accessible in other CSS files.
+ * This file contains "global variables" to be accessed by other CSS files.
+ */
+
+ /* Color Variables */
 :root {
   --color1: #ECEAEA;
   --color2: #0C0C0C;
 }
 
+/* Importing Fonts */
 @font-face {
   font-family: "roboto";
   src: url("../res/fonts/Roboto/Roboto-Regular.ttf");
@@ -18,27 +25,14 @@
   src: url("../res/fonts/Roboto/Roboto-Bold.ttf");
 }
 
-@font-face {
-  font-family: "ubuntu";
-  src: url("../res/fonts/Ubuntu/Ubuntu-Regular.ttf");
-}
-
-@font-face {
-  font-family: "ubuntu-italic";
-  src: url("../res/fonts/Ubuntu/Ubuntu-Italic.ttf");
-}
-
-@font-face {
-  font-family: "ubuntu-bold";
-  src: url("../res/fonts/Ubuntu/Ubuntu-Bold.ttf");
-}
-
+/* General Styling for Resetting */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Setting "1rem" equivalent to "10px" and Scroll Behavior to "smooth" */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

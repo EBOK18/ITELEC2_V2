@@ -1,4 +1,5 @@
 <?php
+// To start web session and use the $_SESSION superglobal.
 session_start();
 
 // Setting Error Reports.
