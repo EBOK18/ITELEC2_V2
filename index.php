@@ -58,6 +58,6 @@ if(isset($_SESSION["acc_signed_in"]) || !empty($_SESSION["acc_signed_in"])) {
 
   <!-- JavaScript Files -->
    <script src="./src/js/jquery/jquery-3.6.0.min.js"></script>
-   <script src="./src/js/signupin.js"></script>
+   <script src="./signupin.js"></script>
 </body>
 </html>

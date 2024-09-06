@@ -12,7 +12,8 @@ if(!isset($_SESSION["acc_signed_in"]) || empty($_SESSION["acc_signed_in"])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="../../src/res/images/logo.jpg" type="image/x-icon" />
+  <title>Dashboard | Admin</title>
 
   <link rel="stylesheet" href="../../src/css/general_style.css">
   <link rel="stylesheet" href="../../src/css/admin-dashboard.css"/>
@@ -23,6 +24,7 @@ if(!isset($_SESSION["acc_signed_in"]) || empty($_SESSION["acc_signed_in"])) {
       <button id="dashboard_button"><img src="../../src/res/images/dashboard_dark.png"> Dashboard</button>
       <button id="manage_user_button"><img src="../../src/res/images/manage_user_dark.png"> Manage Users</button>
       <button id="settings_button"><img src="../../src/res/images/settings_dark.png"> Settings</button>
+      <a href="./authentication/admin-class.php?logout=true"><img src="../../src/res/images/logout_dark.png"> Log Out</a>
     </div>
     <header>
       <div>
@@ -40,7 +42,6 @@ if(!isset($_SESSION["acc_signed_in"]) || empty($_SESSION["acc_signed_in"])) {
     </header>
     <main>
       <h1>Welcome, <?= $_SESSION["acc_signed_in"]["username"] ?>!</h1>
-      <a href="./authentication/admin-class.php?logout=true">Log Out</a>
     </main>
 </body>
 </html>
